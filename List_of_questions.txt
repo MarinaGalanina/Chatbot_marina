@@ -1,0 +1,62 @@
+What impact does severe weather have on our signal?
+How can I monitor my Starlink's performance?
+How can we integrate Starlink to our own network/system?
+How many Public IP's or do you have IP blocks?
+What is the Starlink Wi-Fi range?
+Can we use our own Router?
+Is the Starlink app compatible with all types and versions of smartphones?
+How much time does it take for Starlink to fully optimize?
+Can I move my Starlink to a different location?
+Does our Starlink provide internet connectivity if we place it indoors?
+How long does Starlink expect to last?
+How to reset the password?
+Best location / spot to install Starlink?
+What will happen if we consume our premium data?
+Can we use longer POE cable?
+Why is upload speed slower than download speed?
+When will it be activated?
+What will happen if the PH gateway goes down?
+Can we customize our own Starlink mount?
+Can we install the power supply outdoors?
+How much obstruction is acceptable?
+Does it have its own firewall?
+Starlink speed?
+What else can we configure inside Starlink aside from the Wi-fi password?
+Starlink PH gateway?
+I live in an area with snow, heavy rain, wind, lightning, or extreme temperatures - can I still use Starlink?
+What do the lights on my WiFi router / power supply mean?
+What is Starlink Business?
+How do I factory reset my router?
+Frequent Interruptions - App Says "Obstructed"?
+My internet is intermittent (frequent drops)?
+Can I get additional IP addresses?
+Does Starlink work with VPN?
+What IP address does Starlink provide?
+Difference between Standard, Priority, Mobile, & Mobile Priority? 
+Starlink on the Ocean? 
+Do Starlink routers have a LAN port?
+Can I use Starlink on my ship/boat?
+Can I see the Starlink satellites in the sky?
+What do we know about Starlink satellites?
+What do we know about the ground infrastructure / gateway site?
+With so many Starlink satellites is there a risk of the Kessler syndrome?
+What makes Starlink different from other satellite solutions?
+Where is available starlink?
+What are the privacy and security implications of using Starlink?
+How long does it take to set up Starlink?
+What security method does the Starlink router support? 
+Can I port forward with the Starlink router?
+Does Starlink have a WiFi router administrator portal?
+Does the Starlink WiFi router have any Ethernet (LAN) ports to connect wired devices?
+What's in the Enterprise Kit?
+Operating Temperature, Field of View, and Average Power Usage? 
+What is lock-in period?
+How to use the Starlink Application?
+Do you have a hotline for Tech Support?
+Lead time to reactivate our plan?
+Is there a lock-in period?
+What's the difference between a fixed location plan and a portable plan?
+What is the future of Starlink?
+Do you have SLA?
+What about updates and upgrades? 
+What types of services do you offer? 
