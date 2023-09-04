@@ -1,0 +1,252 @@
+
+? What impact does severe weather have on our signal?
+Severe weather conditions can have a significant impact on internet speeds, resulting in slower download and upload rates. Additionally, these conditions can lead to increased latency, causing a delay in signal transmission of approximately 5-10% and potential signal degradation.However, Starlink, a satellite internet provider, excels in promptly reestablishing a stable satellite connection and connecting to the internet even in adverse weather conditions. Moreover, the Starlink dish is equipped with mechanisms to counteract the effects of severe weather. During challenging weather situations, the dish utilizes additional power to ensure consistent and reliable performance.
+To further enhance signal reception and overcome the challenges posed by severe weather, Starlink offers the High Performance Kit. This kit is specifically designed to compensate for adverse weather conditions by augmenting signal more penetration. It achieves this by drawing more power, thereby improving the overall connectivity experience in challenging weather scenarios.
+
+? How can I monitor my Starlink's performance?
+You can monitor Starlink's performance through the Starlink App. The Starlink App provides users with a range of helpful features to ensure optimal connectivity and performance. By utilizing this app, you can conveniently monitor the speed test results of your internet connection. Additionally, it allows you to assess the visibility of your antenna, ensuring that it is positioned in an ideal location without any obstructions. Furthermore, you can check the range of your antenna to verify its coverage area.
+Another valuable functionality of the Starlink App is the ability to assess the health of your Starlink components. In the "Advanced" section of the app, you can access the "Debug Data" feature, which provides detailed information about the status and performance of the different components. This enables you to diagnose any potential issues and ensure that all components are functioning properly, thereby maintaining a reliable and efficient connection.
+
+? How can we integrate Starlink to our own network/system?
+You can easily tap to network from PSU to switch/firewall/router using PSU to Ethernet Cable disabling the Starlink Wireless Access Point, else, can use Ethernet Adapter to enable the Wi-Fi router while connecting an RJ45 to the network/system. 
+REMINDER: since Starlink provides a DHCP issued Carrier Grade NAT (CGNAT) it can cause issues or concerns to clients, such as Security & Application Compatibility. The quick fix on the ISP side is always Static Public IP, which can be provided when requested, or Dedicated line that we cannot provide.
+Each Enterprise Kit comes with 1 Static Public IP, when requested, this Public IP is CGNAT IPv4.
+
+? How many Public IP's or do you have IP blocks?
+Each Starlink antenna is configured with 1 CGNAT public IP
+
+? What is the Starlink Wi-Fi range?
+185m(2000 sq ft) (13.6m from the AP)
+
+? Can we use our own Router?
+Yes, you can use your own router by using ethernet cable that was included in the Starlink Kit. In order to do that, you have to bypass the Starlink Router or you can use an Ethernet adapter to connect the LAN cable from the Starlink to your own router.
+
+? Is the Starlink app compatible with all types and versions of smartphones?
+You can download the app for iOS and Android. Unfortunately, older versions of smartphones may not be able to find and download the Starlink App from the Google Play Store. This limitation arises due to compatibility issues between the app and the operating system version running on those older devices.
+It's important to note that the Starlink App is regularly updated to ensure compatibility with the latest smartphone models and operating system versions. 
+
+? How much time does it take for Starlink to fully optimize?
+For optimal performance and utilization of Starlink, it is highly recommended to aim for a continuous 24-hour uptime. This duration allows the system to function at its best and ensures maximum efficiency.
+
+? Can I move my Starlink to a different location?
+Yes, you can move your Starlink but it depends on your subscription plan. If you have a portable plan, you have the freedom to move your Starlink system to any location worldwide, even while in motion. On the other hand, if your subscription is for a non-portable service plan, you are limited to relocating the system within a 3-kilometer radius of your registered location.
+
+? Does our Starlink provide internet connectivity if we place it indoors?
+No, Starlink requires a clear line of sight to the sky for the satellite dish to establish a reliable internet connection. Placing the Starlink dish indoors would obstruct the signal and prevent it from communicating with the Starlink satellite constellation effectively.
+
+? How long does Starlink expect to last?
+The Starlink dish is designed to be durable and long-lasting. While specific information about the expected lifespan of the Starlink dish is not publicly available, it is designed to withstand various weather conditions and provide reliable performance over an extended period.
+On the other hand, the expected lifespan of Starlink satellites is approximately five to seven years. However, it's important to note that SpaceX has designed the Starlink system to be a low Earth orbit (LEO) satellite constellation with a robust plan for satellite replenishment. This means that as satellites age or become non-operational, they are continuously replaced with new ones. This approach helps ensure the longevity and continuous operation of the Starlink network over time.
+
+? How to reset the password?
+If you encounter any issues during the setup or use of your router, you can factory reset it. You may Power Cycle the Wi-Fi router at least 6 times, in roughly a 2-3 second interval (about as fast as you can probably manage to plug and unplug it). The router will take a few minutes to reboot and will require you to reconnect and set a new Network ID and Password. Network name will appear as "STINKY" or "STARLINK" in device Wi-Fi settings.
+
+? Best location / spot to install Starlink?
+Since the Starlink is a satellite internet, It must be placed in an area where there is a clear Line of Sight. Ensure that the dish has an unobstructed view of the sky facing North, free from trees, buildings, or other objects that may block the signal.
+
+? What will happen if we consume our premium data?
+Once you consume your premium data, you will experience deprioritization. This transition entails a shift from the priority data category to the standard data category commonly utilized by residential plans.
+
+? Can we use longer POE cable? Where to buy? How much?
+Only 25m POE cable is available
+ 
+? Why is upload speed slower than download speed?
+Since most users spend much more time downloading (which includes viewing web pages or multimedia files) than they do uploading, high speed Internet providers have designed their systems to give priority to downloading. The starlink high performance has a theoretical maximum burst of 60mbps~80mbps With average of 25~40Mbps. 30mbps can handle up to 7-10 video calls continuously
+
+? When will it be activated?
+You have the flexibility to activate your Starlink service at any time. Whether it's immediately upon delivery, following the provided instructions, or by scheduling activation, as long as you have completed the payment for your chosen service plan.
+
+? What will happen if the PH gateway goes down?
+Starlink Network is designed with high redundancy. If PH gateways go down, your Starlink will automatically switch or connect to the nearest gateway using an inter-sat link even if it is in another country.
+
+? Can we customize our own Starlink mount?
+At present, Starlink does not officially support or endorse the customization of the mounting hardware for their satellite dish (Phased Array Antenna). The recommended and supported method is to use the provided Starlink mounting equipment, which is specifically designed and tested to ensure optimal performance and durability.
+Using custom or modified mounting solutions for the Starlink dish may have unintended consequences, such as reduced signal strength, unstable connections, or potential damage to the equipment. It is advised to follow the manufacturer's instructions and use the provided mounting hardware to ensure the best possible experience with your Starlink service.
+
+? Can we install the power supply outdoors?
+Yes, it is IP66 rated, thus providing a high level of protection against dust and water. This makes it suitable for use in harsh environments or outdoor installations where exposure to dust and powerful water jets is expected.
+
+? How much obstruction is acceptable?
+If you have minor obstructions that read between 1-5%, Starlink should still work fine for most internet activities. You'll be able to browse the internet, check email, and stream movies and shows with almost no issues. However,above 5% obstruction is where the real issues start. At this level, you will notice more frequent outages that last longer. With obstruction outages lasting several seconds, you might notice TV shows start to buffer. Online gaming and video calls will be problematic.
+
+? Does it have its own firewall?
+The Starlink Router with the High Performance Starlink, does not have a firewall but has Content Filtering.
+
+? Starlink speed?
+Starlink High Performance offers impressive speed capabilities, ranging from 150 Mbps to 350 Mbps, with a remarkable burst speed of up to 500 Mbps. Upload speed is from 10 - 30 mbps. This means users can experience fast and reliable internet connectivity that supports a wide range of online activities and applications.
+
+? What else can we configure inside Starlink aside from the Wi-fi password?
+Currently, you can only configure the Wi-Fi password from Starlink.
+
+? Starlink PH gateway?
+There are currently 3 operational gateways and 1 waiting to be activated.
+
+? I live in an area with snow, heavy rain, wind, lightning, or extreme temperatures - can I still use Starlink?
+Starlink is designed and tested to handle a wide range of temperatures and weather conditions including snow, hail, sleet, heavy rain, and extreme heat. Starlink is not designed to handle typhoons, tornadoes, meteors, dinosaurs, direct hit by lightning or other extreme forces of nature. Starlink has a built-in heater, so it is capable of melting snow, or it evaporates water after a heavy rain.
+
+? What do the lights on my WiFi router / power supply mean?
+It indicates that your router is turned on and operational. There are no other behaviors.
+
+? What is Starlink Business?
+Starlink Business also called Starlink High Performance (HP) refers to a specific variant of Starlink Hardware. It is designed to offer enhanced performance and capabilities compared to the standard Starlink Residential Antenna. Starlink High Performance is particularly suitable for users with higher bandwidth demands, such as businesses, enterprises, or locations that require more intensive internet usage.
+Starlink High Performance  utilizes a larger  antenna and has more power s to deliver faster speeds, lower latency, and ability to reach the satellites despite the environment. This allows for more efficient data transfer and a smoother online experience, even in areas with limited or unreliable traditional internet infrastructure.
+
+? How do I factory reset my router?
+If you encounter any issues during the setup or use of your router, you can factory reset it. The router will take a few minutes to reboot, and will require you to reconnect and set a new Network ID and Password. Network name will appear as "STINKY" or "STARLINK" in device WiFi settings. For High Performance Kit: Power cycle Starlink (unplug the router from power and then plug back in) 6 times in a row. The router will take a few minutes to reboot, and will interrupt your service until you set up again. You can expect the light on the bottom of the router to be illuminated when complete. There are no lights on the front of the router.
+
+? Frequent Interruptions - App Says "Obstructed"?
+On the Starlink App, use the "Visibility" map to identify the location of your obstructions. 
+Try to move Starlink to a new location, remove the obstruction, or mount at a more elevated location, like a roof, pole, or wall. For best results, Starlink should be installed as close to vertical as possible. Mount solutions are available on the Starlink Shop.To estimate how obstructed a new potential location is, use the "Check for Obstructions'' tool under "Visibility." Follow the guided experience to scan Starlink's field of view using the camera. Note: if you move locations, the "Visibility" map could take up to 12 hours to populate. Repeat as needed in multiple locations.
+
+? My internet is intermittent (frequent drops)? The solution for intermittent internet connectivity or frequent drops can vary depending on the cause of the issue. Some potential solutions include:
+-Checking the Starlink app or website for any reported outages or service disruptions in your area.
+-Ensuring that the Starlink dish is properly installed and pointed in the correct direction with a clear view of the sky.
+-Updating the Starlink app or software to the latest version.
+-Restarting the Starlink dish and router to reset the connection.
+-Checking the cables and connections to ensure they are properly connected and in good condition.
+-Moving the Starlink dish to a different location to improve signal strength.
+-check if the app/site itself is down or experiencing a problem
+
+? Can I get additional IP addresses?
+No, Each Enterprise Kit comes with 1 Static Public IP, when requested, this Public IP is CGNAT IPv4.
+
+? Router IP Pool?
+Starlink Router IP Addresses can assign your device anything ranging from 192.168.1.20 to 192.168.1.249.
+
+? Does Starlink work with VPN?
+Starlink works well with VPN services such as Private Internet Access. If you use Starlink as your internet service provider, you'll be able to stay protected online by using a VPN.
+
+? What IP address does Starlink provide?
+Starlink offers two IP policies:
+Default IP Policy: This policy utilizes Dynamic IP addresses, specifically a Public DHCP-issued Carrier Grade NAT (CGNAT) IPv4 address.
+Public Static IP: Upon request, we can provide 1 Static Public IP address, which is assigned as a CGNAT IPv4 address.
+All Starlink High Performance DHCP IP addresses are configured with a 5 minute lease. Moving the Starlink to another location may cause the public IP to change.
+
+? Difference between Standard, Priority, Mobile, & Mobile Priority? 
+Standard has the same network precedence as the data previously called "Priority Access" assigned to the residential plans. The Standard data assigned to residential users is now unlimited at all times. The Standard Service Plan assigns an unlimited amount of "Standard" data each month to customers. The Standard Service Plan is designed for personal, family, or household use. Priority is the fastest data available to online customers and has the same network precedence as the data previously called high "Priority Access" assigned to the business and maritime plans. Priority Data limits under the business plans are tallied any time you use Starlink, no longer just during peak hours. Priority data is given network precedence over Standard and Mobile data, meaning users will experience faster and more consistent download and upload speeds, especially during times of peak usage. Mobile has the same network precedence as the data previously called "Basic Access" assigned to Best Effort and RV plans. Unlimited deprioritized data, resulting in degraded service and slower speeds in congested areas and during peak hours. Uninterrupted use of the Service is not guaranteed and is highly dependent on geographical areas. Bandwidth intensive applications, such as streaming video and gaming are most likely to be impacted.Mobile Priority is new. It's the sweetest data yet. It has the same network precedence as "Priority Data," but is the only data available on land, at sea, and for in motion use. Limited data amount set by the service plan that has network precedence over Standard and Mobile data and permitted use in motion on land and open water.
+
+? Starlink on the Ocean? 
+Mobile Priority data is required for ocean use. The Mobile Priority service plan enables our fastest network speeds for consumers and can be used on the ocean and land, and is available in 50GB, 1TB, and 5TB plans. If you exceed the allotted data on your Mobile Priority plan and have not opted in to additional Mobile Priority data, you will be unable to access the internet while on the ocean except to access your Starlink account. You will continue to have unlimited Mobile service on inland coverage (e.g., lakes, rivers). Opt-in to automatically purchase additional Mobile Priority Data by the GB to maintain connectivity on the ocean at our fastest network speeds.
+
+? Do Starlink routers have a LAN port?
+No, there is no LAN port in Starlink routers but you can buy a Starlink ethernet adapter. 
+
+? Can I use Starlink on my ship/boat?
+Yes, Starlink provides global coverage for Maritime service, allowing users at sea to stay connected. Additionally, the High Performance Flat dish used in the RV service is suitable for both inland areas and coastal waterways.
+
+? Can I see the Starlink satellites in the sky?
+Under favorable conditions, it is possible to observe Starlink satellites, much like other low-orbiting satellites. Shortly after launch, the 60 satellites are grouped closely together, resulting in a visible line formation in the sky. However, over a span of a few weeks to several months, the satellites disperse and become significantly fainter as they journey toward their designated orbits. To help enthusiasts track their visibility, numerous websites provide information on the timing and locations to spot these satellites accurately.
+
+? What do we know about Starlink satellites?
+v0.9 227 kg launched in May 2019. v1.0 260 kg starting from Nov 2019. 386 kg (850 lbs) each according to the original 2016 FCC application.
+2.8 m 1.4 m (estimated).
+Single solar array 2.8 m 10 m (estimated).
+Inter-satellites laser links will be introduced in late 2020.source First prototypes were tested in Sep 2020.source
+Propulsion via Hall Effect thrusters using Krypton propellant
+The attitude of each spacecraft is 3-axis stabilized, and is dynamically controlled over each orbit to maintain attitude position for two pointing modes of operation
+5 year lifespan
+Planned controlled de-orbit at end of life
+Expected to be mass produced in house at SpaceX facilities in Redmond and Brewster, Washington
+More details revealed in SpaceX AMA.
+
+? What do we know about the ground infrastructure / gateway site?
+To ensure service provision to subscribers, a satellite in the Starlink system currently requires being within the service area of a gateway station. These stations, equipped with multiple antennas and fiber internet connections, serve as communication hubs. MIT researchers estimate that, regardless of the introduction of inter-satellite links, around 123 gateway sites worldwide will be necessary to support the anticipated system bandwidth. As of December 2022, SpaceX has applied to operate approximately 100 gateway sites across the United States and its territories.Due to the substantial coverage of the fairly large gateway service areas, it is expected that these gateways will encompass the majority of land mass. The map's final service areas layer illustrates reduced gateway coverage, which will be implemented when the number of satellites increases significantly and an adequate number of gateways are established. In sparsely populated regions like Alaska, SpaceX may continue employing large gateway service areas.
+
+? With so many Starlink satellites is there a risk of the Kessler syndrome?
+Kessler syndrome refers to a scenario where satellites collide, resulting in a debris field that further collides with other satellites, leading to a cascade effect reminiscent of the movie Gravity. While the risk is not entirely eliminated, it is extremely low because Starlink's satellite has a built-in collision avoidance to prevent adding space junks and keeping our space clean.
+
+? What makes Starlink different from other satellite solutions?
+Traditional satellite solutions suffer from limited bandwidth and high ping times. Satellites in Geostationary orbit are positioned approximately 35,786 km (22,236 mi) away, resulting in real-world ping times of around 600 to 1200 ms. However, Starlink's innovative approach addresses this issue by deploying a large number of satellites-over 4000 of them-in lower orbits. This configuration significantly reduces the distance between end users and the satellites, resulting in improved ping times. Projections suggest that Starlink aims to operate with impressive ping times ranging from 25 to 50ms, offering a substantial enhancement compared to traditional satellite solutions.
+
+? What is the coverage area of Starlink, and which countries currently have access to the service? 
+Starlink's coverage area varies depending on the location of the ground stations and the density of the satellite constellation. 
+
+?Where is available starlink?
+Currently, Starlink is available in the Philippines, Japan, Australia, New Zealand, Nigeria, Brazil, Colombia, Peru, Chile, Mexico, United States, Jamaica, Dominican Republic, Puerto Rico, British Virgin Islands, United States Virgin Islands, Sint Maarten, Guadeloupe, Martinique, Barbados, Hawaii, Iceland, Svalbard, Ireland, United Kingdom, Norway, Sweden, Finland, Ukraine, Estonia, Lithuania, Latvia, Poland, Denmark, Portugal, Spain, France, Switzerland, Luxembourg, Belgium, Netherlands, South Africa, Germany, Czechia, Slovakia, Austria, Hungary, Croatia, Slovenia, Italy, Malta, Romania, Bulgaria, Greece, Vatican, Andorra, Liechtenstein, Monaco, San Marino, and Cape Verde Islands. However, coverage is still expanding, and more countries are expected to gain access to the service in the future.
+
+? What are the privacy and security implications of using Starlink?
+Like any internet service, there are potential privacy and security risks associated with using Starlink. Users should take appropriate measures to secure their network and devices, such as using strong passwords and enabling two-factor authentication.
+
+? How long does it take to set up Starlink?
+Setting up Starlink is a user-friendly process that can be completed within minutes. The straightforward installation involves a few simple steps. Firstly, the user will need to securely mount the Starlink dish outdoors, ensuring optimal signal reception. Next, connecting the dish to a power source enables its functionality. Finally, setting up the Wi-Fi network completes the setup, allowing users to swiftly connect their devices and enjoy high-speed internet access.
+
+? What security method does the Starlink router support? 
+The Starlink router supports WPA2 and WPA3 security. Older security standards will not function with the Starlink router.
+
+? Can I port forward with the Starlink router?
+The Starlink router does not support port forwarding. However, you can connect the Starlink connection directly to your Firewall or Network Infrastructure, without using the Starlink router, to gain more control over your network configuration. This allows you to manage incoming traffic and configure specific rules for directing it to the desired devices or servers on your local network.
+
+? Does Starlink have a WiFi router administrator portal?
+The Starlink Router does not have an administrator portal. All available router configurations can be made through Starlink App.
+Network Name and Password
+Create separate 2.4 Ghz and 5 Ghz bands
+Reboot
+Factory Reset
+Custom DNS Servers
+Bypass Mode
+Content Filtering[1][2]
+The Starlink router currently does not support features as: Parental Controls, MAC filters, changing LAN DHCP scope to customer range, and port forwarding
+Note: A WiFi network name is also called SSID. A WiFi password can be referred to as a network security key. WPA key or WAP/SPA2 passphrase
+
+? Does the Starlink WiFi router have any Ethernet (LAN) ports to connect wired devices?
+No. The router included with the Starlink kits does not come with built-in Ethernet ports. However, there is an Ethernet Adapter available for purchase to allow for a wired connection to the network. If you need more than one port, a network switch can be connected to the ethernet adapter. Alternatively, the High Performance kits have an external power supply and an included RJ45 cable for direct hardwired connections that bypass the Starlink router and can be used to connect alternative routers for wired network setups.
+
+? What's in the Enterprise Kit?
+It includes everything you need to connect to the internet including your Starlink antenna or dish, WiFi router, power supply, cables, and base or default lawn mount that is interchangeable.There are a total of five cables provided, namely: a 25m Starlink or PoE Cable, 5m Ethernet cable, 2m router cable, and a 1.8m AC cable for power supply and router.
+
+? Operating Temperature, Field of View, and Average Power Usage? 
+With its built-in heater or Snow Melt Capability, it is capable of operating in temperatures ranging from -30C to 50C (-22F to 122F). The device has a Field of View (FOV) of 140 and an average power usage of 110-150W.
+
+? What is lock-in period?
+There is no lock-in period, as you can upgrade, downgrade, or cancel anytime.
+Once you have subscribed to Starlink, you have the freedom to cancel your subscription at any time, without any hassle or penalties. Additionally, you can reactivate your subscription whenever it suits your needs
+
+? How to use the Starlink Application?
+Download the app via Google Play Store or App Store. Open the app, select the "Visibility", "Check for Obstructions".Choose what Starlink you have, then "Confirm". Click "I'M READY", face the clear sky and wait for it to finish scanning.Once it is finished, you can place the Starlink to the area where you scanned the sky and face it due North.
+
+? Do you have a hotline for Tech Support?
+Starlink doesn't have a hotline
+
+? How many months/years for warranty?
+Starlink warranty is 12 months, Warranty on Equipment is for six (6) months beginning from the date of delivery of the equipment. Repair and replacement of equipment with manufacturing defects shall be on a "Return to Base" basis, at such location as directed by the Service Provider. There is no warranty on accessories and equipment other than the STARLINK KIT.
+
+? Is there a lock-in period? 
+At Starlink, we prioritize flexibility and freedom for our valued subscribers. We are proud to inform you that there is no lock-in period associated with our services. Once you have subscribed to Starlink, you have the freedom to cancel your subscription at any time, without any hassle or penalties. Additionally, you can reactivate your subscription whenever it suits your needs.
+
+? Lead time to reactivate our plan?
+10-15 mins
+
+? Can I add additional service locations to my account?
+No, Starlink currently offers one service plan per Starlink kit, we do provide options for multiple service locations through our portable plan subscription. With the portable plan, you can enjoy the flexibility of accessing Starlink services at different locations according to your needs.
+
+? If the cable has a defect upon checking and testing, will you provide a new one for free?
+Yes, if our internal investigation confirms that the defect is due to a fault on our end, we will be happy to provide a new cable free of charge
+
+? Can my High Performance (HP) subscription be changed to another subscription, like the Residential one?
+Starlink High Performance and Starlink Residential are equipped with different Starlink systems, and as a result, they have separate service plans that cannot be interchanged. Each system is designed to cater to specific needs and requirements.
+However, if you are currently subscribed to a Starlink High Performance service plan and would like to explore different subscription options within the Starlink High Performance offerings, we do provide the flexibility to change your subscription accordingly. Our Starlink High Performance service plans offer a range of options to accommodate various usage requirements and preferences.
+
+? Why choose a High Performance kit over a Residential kit?
+Maximized throughput, less affected by weather conditions. Designed for larger-scale operations and rugged environments. 5-10% degradation on extreme weather conditions compared to up to 40% of Residential. Due to their larger size and internally optimized design, High-Performance Starlink setups enjoy priority in data and speed. Upon request, High Performance can provide 1 Static Public IP address.In addition, Residential kits typically operate at an average power of 50-75W, whereas High-Performance setups require 110-150W due to their Power Supply included in the kit. This enables them to penetrate even the thickest cloud layers and draw additional power if needed. Therefore, we recommend a power supply capable of delivering at least 350W to meet the requirements of High-Performance setups.Furthermore, Starlink strictly prohibits the use of the Residential kit for business purposes. If detected, they have the authority to terminate your subscription, rendering your kit useless.
+
+? What's the difference between a fixed location plan and a portable plan?
+Starlink's fixed location plan is primarily designed for customers who require consistent and reliable internet connectivity at a specific location, such as a residence or business. On the other hand, Starlink's portable plan is tailored for customers who need internet connectivity on the go or at various locations. This plan offers the flexibility to transport and set up the Starlink equipment at different places, enabling users to access the internet in remote areas or during travel.
+
+? What is the future of Starlink?
+The future prospects for Starlink are extensive, as the company envisions an extensive expansion of its services to numerous countries and regions with various use cases to be met. With plans to launch thousands of additional satellites, Starlink aims to enhance its global coverage and connectivity. Furthermore, the network's potential extends beyond terrestrial applications, as there are ongoing efforts  to connect ships and airplanes to the Starlink network, opening up new possibilities for maritime and aviation connectivity. Looking even further ahead, Starlink is exploring the exciting prospect of providing internet services to space tourists and future colonizers, demonstrating the company's ambition to push the boundaries of connectivity beyond Earth's confines.
+
+? Do you have SLA?
+Starlink is a novel technology, and we try our best to improve our services, currently Starlink is on a best effort basis 
+
+? Does it affect the performance if my Starlink  connection is in other countries and not in the Philippines?
+Starlink is still a novel technology but due to its nature may allow your connection to locate from various geographic locations. 
+
+? How does the satellite then connect to the internet?
+The Starlink Networks connect to the internet through various Gateway Stations around the country and the world interconnected to the wider internet through various other telecommunication companies 
+
+? What about updates and upgrades? 
+Starlink Antennas are automatically updated without the need of user inputs, SpaceX continues to innovate and launch new hardware from antennas, satellites and gateway stations to improve your experience. We are aware that cats love to sleep on the dish due to the heater use by the antenna to clear snow and water, as such as we have added a cat removing button on the Starlink Application. 
+
+? What types of services do you offer? 
+We provide monthly subscriptions and customer service for technical support
+
