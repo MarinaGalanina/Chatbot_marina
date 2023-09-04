@@ -66,12 +66,12 @@ class ModelContext:
 
     def _create_model(self, input_size_x, output_size_y):
         model = Sequential()
-        model.add(Dense(128, input_shape=(len(input_size_x[0]),), activation="relu"))
-        model.add(Dropout(0.5))
-        model.add(Dense(64, activation="relu"))
-        model.add(Dropout(0.5))
+        model.add(Dense(256, input_shape=(len(input_size_x[0]),), activation="relu"))
+        model.add(Dropout(0.4))
+        model.add(Dense(128, activation="relu"))
+        model.add(Dropout(0.4))
         model.add(Dense(len(output_size_y[0]), activation="softmax"))
-        return model
+        return modell
 
     def _intents_preporcessing(self, data):
         dataX = []
